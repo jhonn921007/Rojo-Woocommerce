@@ -11,10 +11,13 @@ Requires at least:
   - Consulta la tasa del dolar (Banco Central)
   - Convierte de $RD a $USD y lo envia
   - Cambiado Moneda de DOP a USD
-  - 
+  - Enviar Array Procesado (Order Completed) por REST API a Plataforma Rojo
+  - Add seguridad de identificacion para acceder al REST API tipo (Api Secrete Key o user and password)
+  - IP del user
+  - User-Agent del User
 
 ## Task
-    - Enviar Array Procesado (Order Completed) por REST API a Plataforma Rojo
-    - Add seguridad de identificacion para acceder al REST API tipo (Api Secrete Key o user and password)
+    - Order ID WOOCOMMERCE
+    - Mas seguridad
 
 
