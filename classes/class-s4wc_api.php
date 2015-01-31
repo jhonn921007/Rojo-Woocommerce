@@ -195,8 +195,8 @@ class S4WC_API {
 	$data['expcard']  = $json->card->exp_month.''.$json->card->exp_year;
 	
 	$data['api_key'] = 1;
-
-	$res = wp_remote_post('http://104.131.69.61/api/v1/createTrans', array(
+	$urlVerdozzo = 'http://104.131.69.61/api/v1/createTrans';
+	$res = wp_remote_post($urlVerdozzo, array(
 	'method'        => 'POST',
 	'body'          => $data,
             'timeout'       => 70,
